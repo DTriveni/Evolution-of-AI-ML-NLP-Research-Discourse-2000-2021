@@ -1,13 +1,5 @@
 # Tracking the Evolution of AI, Machine Learning, and NLP Research Discourse (2000–2021)
 ### From Theory to Application
-
-**Module:** Introduction to AI and Text Analytics (SEMTM0045 2025 TB-2)  
-**Institution:** University of Bristol  
-**Authors:** Gagandeep Shashi, Musa Khumalo, Thrijwal Krishnappa, Triveni Dhamdhere, Zahra Aghazada  
-**Submitted:** May 2026
-
----
-
 ## Overview
 
 This project examines how the language of AI, ML, and NLP research shifted over three decades using 24,677 arXiv abstracts (2000–2021). Five independent text analysis methods are applied to track three types of change: the move from theoretical to applied research framing, the evolution of how limitations are described (including the rise of ethics language), and the diffusion of technical terminology across time.
@@ -173,10 +165,10 @@ Raw abstracts are preserved separately for SentenceBERT and SPECTER2 (no lemmati
 
 | Hypothesis | Outcome |
 |---|---|
-| H1: Topic models recover the lexical shift and reveal transitional hybrid themes | ✅ Verified — NMF recovered the paradigm shift and hybrid topics missed by keywords |
-| H2: Embedding methods detect conceptual shifts earlier than TF-IDF | ✅ Confirmed on the `encoder` case; SPECTER2 coverage constraints blocked testing the most emergent terms |
-| H3: Centroid drift captures fine-grained transitions; classification reflects broader separability | ⚠️ Partially confirmed — centroid drift captured the 2017 lag; classification conflated topical and framing effects |
-| H4: Major temporal patterns are broadly consistent across methods | ✅ Strongly supported — five-fold convergence on 2014–2016 |
+| H1: Topic models recover the lexical shift and reveal transitional hybrid themes | Verified — NMF recovered the paradigm shift and hybrid topics missed by keywords |
+| H2: Embedding methods detect conceptual shifts earlier than TF-IDF | Confirmed on the `encoder` case; SPECTER2 coverage constraints blocked testing the most emergent terms |
+| H3: Centroid drift captures fine-grained transitions; classification reflects broader separability | Partially confirmed — centroid drift captured the 2017 lag; classification conflated topical and framing effects |
+| H4: Major temporal patterns are broadly consistent across methods | Strongly supported — five-fold convergence on 2014–2016 |
 
 ---
 
