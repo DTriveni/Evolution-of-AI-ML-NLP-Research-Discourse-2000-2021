@@ -54,8 +54,7 @@ project/
 │
 ├── outputs/
 │   ├── figures/
-│   ├── tables/
-│   └── models/
+│   └── results/
 │
 ├── report/
 │   └── final_report.pdf
